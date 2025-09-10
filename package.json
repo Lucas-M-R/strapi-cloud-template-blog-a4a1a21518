@@ -12,20 +12,30 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/view": "^6.38.2",
+    "@strapi/admin": "5.15.0",
+    "@strapi/data-transfer": "^5.23.4",
     "@strapi/plugin-cloud": "5.15.0",
+    "@strapi/plugin-graphql": "^5.23.4",
     "@strapi/plugin-users-permissions": "5.15.0",
     "@strapi/strapi": "5.15.0",
+    "@strapi/types": "^5.23.4",
     "better-sqlite3": "11.3.0",
     "fs-extra": "^10.0.0",
+    "lodash": "^4.17.21",
     "mime-types": "^2.1.27",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "esbuild": "^0.25.9"
   }
 }

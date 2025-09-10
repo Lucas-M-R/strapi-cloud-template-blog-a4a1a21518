@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_sections_rich_texts",
+  "info": {
+    "displayName": "rich-text",
+    "icon": "file-signature",
+    "description": "Bloc de texte riche"
+  },
+  "attributes": {
+    "body": { "type": "richtext" }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_content_images",
+  "info": {
+    "displayName": "contentImage",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "invert": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}
