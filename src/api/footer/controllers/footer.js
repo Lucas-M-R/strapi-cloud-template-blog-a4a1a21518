@@ -1,9 +1,11 @@
 'use strict';
 
 /**
- *  category controller
+ * footer controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::category.category');
+module.exports = createCoreController('api::footer.footer');
+
+
